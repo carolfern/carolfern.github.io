@@ -1,0 +1,265 @@
+body {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+#cajalateral {
+  display: flex;
+
+  background: linear-gradient(0deg, rgb(54, 112, 114) 0%,rgba(95,158,160,1) 30%,rgb(219, 254, 255) 100%); 
+  flex-direction: column;
+  width: 80%;
+  font-family: "Montserrat","sans-serif";;
+}
+
+#cajalateral > div {
+
+  padding: 20px;
+  font-size: 30px;
+
+}
+
+#cajacentral {
+    display: flex;
+    flex-flow: column;
+    background-color: azure;
+ 
+}
+
+#cajacentral > #cajaimagen {
+
+    font-size: 30px;
+    height: 100%;
+
+    
+  }
+  
+#cajacentral>div>h2{
+  font-family: "bebas neue","sans-serif";
+  font-size: 112px;
+  text-align: center;
+  
+  color :cadetblue;
+  word-spacing: 20px;
+}
+#foto{
+    border-style: outset;
+    width: 80%;
+    border-radius: 80px;
+    height: 60%;
+    object-fit: cover;
+}
+#cajafoto{
+  text-align: center;
+}
+
+#cajafoto > p{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Montserrat","sans-serif";
+  font-size: 25px;
+}
+#cajafoto > p + p{
+  line-height: 1%;
+}
+#cajaiconos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+#cajaiconos>div{
+
+  font-size: 30px;
+  justify-content: space-around;
+}
+#cajaiconos>div>img{
+  width: 90px;
+}
+
+
+#correo>p{
+  font-size: 60%;
+  text-align: center;
+}
+ul{
+  display:flex;
+  list-style:none;
+  padding: 0px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+ul > li {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+button {
+  background-color: azure;
+  color: black;
+  border: 2px solid cadetblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 22px;
+  font-family: "Montserrat","sans-serif";
+
+}
+button:hover{
+  background-color:antiquewhite;
+
+}
+#cajaimagen{
+  padding: 0%;
+  background-image: url("LINKS/IMAGENES/prueba\ apaisada.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 1450px;
+  
+  
+}
+#cajaimagen:hover{
+  opacity: 0.6;
+}
+#cajaimagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  text-align: center;
+  
+}
+#cajaimagen > div> a > button{
+
+  visibility: hidden;
+  display: none;
+}
+
+#cajaimagen > div> a {
+  text-decoration: none;
+}
+#cajaimagen > div> #hola{
+  
+  visibility: visible;
+
+
+}
+#cajaimagen:hover > #hola{
+  display: none;
+  visibility: hidden;
+
+  
+}
+#cajaimagen:hover > div > a >button{
+  display: flex;
+  visibility: visible;
+
+  
+}
+#cajaimagen > div > a > button{
+  background-color: rgba(0, 0, 0,0.5);
+  color: white;
+  border: 2px solid white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 22px;
+  font-family: "Montserrat","sans-serif";
+}
+#hola{
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0,0.5);
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat","sans-serif";
+  letter-spacing: 10px;
+}
+
+#micv{
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: left;
+  
+}
+#micv > h2{
+
+  font-family: "Montserrat","sans-serif";
+}
+.cventrada{
+  
+  width: 1450px;
+  line-height: 15px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+.cventrada > p{
+  font-family: "Montserrat","sans-serif";
+  margin-left: 35px;
+  line-height: 8px;
+  text-indent:20px;
+}
+.cventrada > h3{
+  font-family: "Montserrat","sans-serif";
+  margin-left: 35px;
+  
+}
+.cventrada > h4{
+  font-family: "Montserrat","sans-serif";
+  margin-left: 35px;
+  margin-bottom: 1px;
+  
+}
+.cventrada > .cventrada{
+  margin-top: 75px;
+  text-indent: 20px;
+}
+hr + .cventrada{
+  margin-top: 115px;
+}
+
+
+
+
+
+
+.galeria{
+  padding: 50px;
+  
+}
+div.galeria {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 580px;
+  margin-left: 15px;
+}
+
+div.galeria:hover {
+  border: 1px solid #777;
+}
+
+div.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  font-family: "Montserrat","sans-serif";
+  padding: 15px;
+  text-align: center;
+}
